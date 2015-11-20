@@ -35,7 +35,7 @@ gulp.task('compass:dev', function () {
 gulp.task('browser-sync', function () {
     browserSync({
         port: 3001,
-        proxy: "127.0.0.1:3000"
+        proxy: "https://support.uformia.com/"
     });
 });
 
